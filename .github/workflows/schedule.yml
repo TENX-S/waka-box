@@ -1,7 +1,7 @@
 name: dev stats
 on:
   schedule:
-    - cron: "* * * * *"
+    - cron: "0 8,18 * * *"
 jobs:
   update-gist:
     runs-on: ubuntu-latest
